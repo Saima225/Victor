@@ -1,0 +1,1210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{width: 100%;margin: auto;}
+header h1{
+
+text-align: center;
+
+padding: 20px 0;
+
+font-size: 35px;
+
+font-weight: 100;
+}
+
+nav{
+
+width: 30%;
+
+margin: auto;
+
+padding: 15px 0;
+}
+nav ul{
+    
+list-style: none;
+    
+display: flex;
+    
+justify-content: space-between;
+}
+nav ul li{font-size: 18px;}
+nav ul li a{
+    
+text-decoration: none;
+    
+color: #00000080;
+}
+.front-section{
+
+margin-left: 10%;
+
+margin-right: 10%;
+
+display: flex;
+
+justify-content: space-between;
+
+margin-top: 60px;
+}
+.left-section{
+
+width: 40%;
+
+margin-top: 80px;
+
+margin-left: 10%;
+}
+.left-section h1{
+    
+font-size: 55px;
+    
+font-weight: 200;
+    
+margin-bottom: 20px;
+}
+.left-section h3{
+    
+font-size: 25px;
+    
+font-weight: 100;
+}
+.left-section p{
+    
+margin-top: 20px;
+    
+font-size: 18px;
+    
+color: #7E807E;
+    
+margin-bottom: 20px;
+}
+.btn{
+}
+.btn button{padding: 8px 32px;background: black;color: white;font-size: 16px;border: none;cursor: pointer;}
+.right-section{
+
+width: 40%;
+
+margin: auto;
+}
+.img{
+
+width: 100%;
+}
+.img img{
+    
+width: 100%;
+}
+.buy-books{
+
+background-color: #FAFAFA;
+
+width: 100%;
+
+margin: auto;
+
+margin-top: 20px;
+
+text-align: center;
+
+height: 400px;
+
+border-bottom: 1px solid #00000030;
+}
+.buy-books h1{
+    
+font-size: 35px;
+    
+font-weight: 100;
+    
+padding: 25px 0;
+}
+.buy-books p{
+    
+font-size: 17px;
+    
+color: #75759F;
+    
+margin-bottom: 30px;
+    
+padding-bottom: 10px;
+}
+.buy-books form{
+    
+}
+.upper-input{
+
+display: flex;
+
+justify-content: space-evenly;
+
+padding-inline: 250px;
+}
+.upper-input input{
+    
+padding: 12px 45px;
+    
+border: none;
+    
+background: black;
+    
+color: white;
+    
+font-size: 16px;
+    
+font-weight: 500;
+    
+cursor: pointer;
+}
+.lower-input{
+
+margin-top: 30px;
+
+display: flex;
+
+justify-content: space-between;
+
+padding-inline: 410px;
+}
+.lower-input input{
+    
+padding: 12px 45px;
+    
+border: none;
+    
+color: white;
+    
+background-color: black;
+    
+font-size: 16px;
+    
+font-weight: 500;
+    
+cursor: pointer;
+}
+.author-section{
+
+justify-content: space-between;
+
+display: flex;
+
+background-color: #F7F7F7;
+
+width: 100%;
+}
+.left-section{
+}
+.author-img{
+}
+.author-img img{
+    
+width: 100%;
+}
+.right-section{
+
+margin-top: 10%;
+}
+.right-section h1{
+    
+font-size: 40px;
+    
+font-weight: 100;
+    
+margin: 20px 0;
+}
+.right-section h3{
+    
+font-size: 22px;
+    
+font-weight: 200;
+    
+margin-bottom: 20px;
+}
+.right-section h5{
+    
+margin-bottom: 20px;
+}
+.right-section p{
+    
+color: #757575;
+    
+font-size: 18px;
+    
+margin-bottom: 30px;
+}
+.right-section h4{
+    
+}
+.premium-section{
+
+width: 50%;
+
+margin: auto;
+
+margin-top: 10%;
+
+margin-bottom: 10%;
+
+text-align: center;
+}
+
+.premium-section p{
+    
+margin-bottom: 20px;
+    
+font-size: 35px;
+    
+font-weight: 100;
+}
+.premium-section h3{
+    
+margin: 8% 0;
+    
+font-size: 23px;
+    
+font-weight: normal;
+}
+.icon{
+
+display: flex;
+
+justify-content: center;
+}
+.icon li{
+    
+list-style: none;
+}
+.icon li a{
+    
+margin-left: 5%;
+    
+text-decoration: none;
+    
+color: #F0AD4E;
+    
+text-align: center;
+}
+.icon li a i{
+    
+}
+.banner{
+
+border-bottom: 1px solid #0000001f;
+
+width: 90%;
+
+margin: auto;
+}
+.banner-img{
+
+width: 100%;
+
+margin: auto;
+
+margin-bottom: 30px;
+}
+.banner-img img{}
+.order{
+
+display: flex;
+
+justify-content: space-between;
+
+width: 70%;
+
+margin: auto;
+
+margin-bottom: 10%;
+
+text-align: center;
+}
+.order li{
+    
+list-style: none;
+}
+.order li a{
+    
+text-decoration: none;
+}
+.order li a h3{
+    
+color: #000052;
+    
+font-size: 26px;
+    
+font-weight: 100;
+    
+margin-top: 20px;
+}
+.order li a h4{
+    
+color: #757575;
+    
+font-weight: normal;
+    
+font-size: 18px;
+}
+.order li a h5{font-size: 20px;font-weight: 600;color: #000000d4;}
+.books{
+
+margin-top: 10%;
+
+text-align: center;
+}
+.books h1{
+    
+text-align: center;
+    
+font-size: 40px;
+    
+font-weight: 200;
+}
+.books p{
+    
+margin-top: 20px;
+    
+font-size: 18px;
+    
+color: grey;
+    
+text-align: center;
+}
+.books-images{
+
+width: 90%;
+
+margin: auto;
+
+padding-top: 5%;
+}
+.books-images img{padding-left: 4%;width: 29%;}
+.three-paragraph{
+    
+background-color: #F7F7F7;
+}
+.paragraph{display: flex;justify-content: space-between;width: 90%;margin: auto;text-align: left;}
+.paragraph li{
+    
+list-style: none;
+}
+.paragraph li a{
+    
+text-decoration: none;
+}
+.paragraph li a h2{
+    
+margin-top: 10%;
+    
+font-size: 35px;
+    
+font-weight: normal;
+    
+color: black;
+    
+text-align: left;
+    
+margin-left: 18%;
+}
+.paragraph li a h4{
+    
+font-size: 22px;
+    
+font-weight: normal;
+    
+text-align: left;
+    
+color: #000000bf;
+    
+margin-left: 18%;
+}
+.paragraph li a h6{
+    
+margin-left: 18%;
+    
+font-size: large;
+}
+.paragraph li a h5{
+    
+margin-left: 18%;
+    
+font-size: 18px;
+    
+font-weight: normal;
+    
+color: grey;
+    
+margin-top: 3%;
+}
+.paragraph li a button{
+    
+margin-left: 18%;
+    
+margin-top: 8%;
+    
+border: none;
+    
+font-size: 16px;
+    
+font-weight: bold;
+    
+margin-bottom: 50%;
+} 
+.about-section{
+    border-bottom: 1px solid black;
+}
+.about-victor{
+
+display: flex;
+
+justify-content: space-between;
+
+width: 100%;
+
+margin: auto;
+
+background-color: #1C1E24;
+
+height: 600px;
+}
+.left-section{
+
+margin-right: 5%;
+
+margin-top: 8%;
+}
+.left-section h2{
+
+color: white;
+
+font-weight: 200;
+}
+.left-section p{
+
+color: #677B84;
+}
+.middle-section{
+
+margin-right: 5%;
+
+margin-top: 5%;
+
+width: 30%;
+}
+.middle-section h2{
+    
+color: white;
+    
+margin-top: 20%;
+    
+font-weight: 200;
+    
+margin-bottom: 20px;
+}
+.middle-section li{
+    
+list-style: none;
+}
+
+.middle-section li a{
+
+text-decoration: none;
+}
+
+.middle-section li a h1{
+    
+font-weight: normal;
+    
+font-size: 22px;
+    
+color: white;
+    
+margin-bottom: 10px;
+    
+margin-top: 10px;
+}
+.middle-section li a h1 span{
+    
+font-style: normal;
+}
+.middle-section li a h4{
+
+color: #3A5A7E;
+
+font-size: 18px;
+
+margin-bottom: 10px;
+
+font-weight: normal;
+}
+.border{
+
+border: 1px solid #ffffff59;
+
+margin-bottom: 20px;
+}
+.right-section{
+
+margin-left: 5%;
+
+width: 30%;
+}
+.right-section h2{
+    
+color: white;
+    
+margin-bottom: 10%;
+    
+font-weight: 200;
+    
+font-size: 28px;
+}
+.right-section input{
+    
+border: none;
+}*{
+    margin: 0;
+    padding: 0;
+}
+header{width: 100%;margin: auto;}
+header h1{
+
+text-align: center;
+
+padding: 20px 0;
+
+font-size: 35px;
+
+font-weight: 100;
+}
+
+nav{
+
+width: 30%;
+
+margin: auto;
+
+padding: 15px 0;
+}
+nav ul{
+    
+list-style: none;
+    
+display: flex;
+    
+justify-content: space-between;
+}
+nav ul li{font-size: 20px;}
+nav ul li a{
+    
+text-decoration: none;
+    
+color: #00000080;
+}
+.front-section{
+
+margin-left: 5%;
+
+display: flex;
+
+justify-content: space-between;
+
+margin-top: 60px;
+}
+.left-section{
+
+width: 40%;
+
+margin-top: 80px;
+
+margin-left: 10%;
+}
+.left-section h1{
+    
+font-size: 60px;
+    
+font-weight: 200;
+    
+margin-bottom: 20px;
+}
+.left-section h3{
+    
+font-size: 28px;
+    
+font-weight: 100;
+}
+.left-section p{
+    
+margin-top: 20px;
+    
+font-size: 18px;
+    
+color: #7E807E;
+    
+margin-bottom: 20px;
+}
+.btn{
+}
+.btn button{padding: 8px 32px;background: black;color: white;font-size: 16px;border: none;cursor: pointer;}
+.right-section{
+
+width: 40%;
+
+margin: auto;
+}
+.img{
+
+width: 120%;
+}
+.img img{
+    
+width: 110%;
+}
+.buy-books{
+
+background-color: #FAFAFA;
+
+width: 100%;
+
+margin: auto;
+
+margin-top: 20px;
+
+text-align: center;
+
+height: 400px;
+
+border-bottom: 1px solid #00000030;
+}
+.buy-books h1{
+    
+font-size: 35px;
+    
+font-weight: 100;
+    
+padding: 25px 0;
+}
+.buy-books p{
+    
+font-size: 17px;
+    
+color: #75759F;
+    
+margin-bottom: 30px;
+    
+padding-bottom: 10px;
+}
+.buy-books form{
+    
+}
+.upper-input{
+
+display: flex;
+
+justify-content: space-evenly;
+
+padding-inline: 250px;
+}
+.upper-input input{
+    
+padding: 12px 45px;
+    
+border: none;
+    
+background: black;
+    
+color: white;
+    
+font-size: 16px;
+    
+font-weight: 500;
+    
+cursor: pointer;
+}
+.lower-input{
+
+margin-top: 30px;
+
+display: flex;
+
+justify-content: space-between;
+
+padding-inline: 410px;
+}
+.lower-input input{
+    
+padding: 12px 45px;
+    
+border: none;
+    
+color: white;
+    
+background-color: black;
+    
+font-size: 16px;
+    
+font-weight: 500;
+    
+cursor: pointer;
+}
+.author-section{
+
+justify-content: space-between;
+
+display: flex;
+
+background-color: #F7F7F7;
+
+width: 100%;
+}
+.left-section{
+}
+.author-img{
+}
+.author-img img{
+    
+width: 100%;
+}
+.right-section{
+
+margin-top: 10%;
+}
+.right-section h1{
+    
+font-size: 40px;
+    
+font-weight: 100;
+    
+margin: 20px 0;
+}
+.right-section h3{
+    
+font-size: 22px;
+    
+font-weight: 200;
+    
+margin-bottom: 20px;
+}
+.right-section h5{
+    
+margin-bottom: 20px;
+}
+.right-section p{
+    
+color: #757575;
+    
+font-size: 18px;
+    
+margin-bottom: 30px;
+}
+.right-section h4{
+    
+}
+.premium-section{
+
+width: 50%;
+
+margin: auto;
+
+margin-top: 10%;
+
+margin-bottom: 10%;
+
+text-align: center;
+}
+
+.premium-section p{
+    
+margin-bottom: 20px;
+    
+font-size: 35px;
+    
+font-weight: 100;
+}
+.premium-section h3{
+    
+margin: 8% 0;
+    
+font-size: 23px;
+    
+font-weight: normal;
+}
+.icon{
+
+display: flex;
+
+justify-content: center;
+}
+.icon li{
+    
+list-style: none;
+}
+.icon li a{
+    
+margin-left: 5%;
+    
+text-decoration: none;
+    
+color: #F0AD4E;
+    
+text-align: center;
+}
+.icon li a i{
+    
+}
+.banner{
+
+border-bottom: 1px solid #0000001f;
+
+width: 90%;
+
+margin: auto;
+}
+.banner-img{
+
+width: 100%;
+
+margin: auto;
+
+margin-bottom: 30px;
+}
+.banner-img img{}
+.order{
+
+display: flex;
+
+justify-content: space-between;
+
+width: 70%;
+
+margin: auto;
+
+margin-bottom: 10%;
+
+text-align: center;
+}
+.order li{
+    
+list-style: none;
+}
+.order li a{
+    
+text-decoration: none;
+}
+.order li a h3{
+    
+color: #000052;
+    
+font-size: 26px;
+    
+font-weight: 100;
+    
+margin-top: 20px;
+}
+.order li a h4{
+    
+color: #757575;
+    
+font-weight: normal;
+    
+font-size: 18px;
+}
+.order li a h5{font-size: 20px;font-weight: 600;color: #000000d4;}
+.books{
+
+margin-top: 10%;
+
+text-align: center;
+}
+.books h1{
+    
+text-align: center;
+    
+font-size: 40px;
+    
+font-weight: 200;
+}
+.books p{
+    
+margin-top: 20px;
+    
+font-size: 18px;
+    
+color: grey;
+    
+text-align: center;
+}
+.books-images{
+
+width: 90%;
+
+margin: auto;
+
+padding-top: 5%;
+}
+.books-images img{padding-left: 4%;width: 29%;}
+.three-paragraph{
+    
+background-color: #F7F7F7;
+}
+.paragraph{display: flex;justify-content: space-between;width: 90%;margin: auto;text-align: left;}
+.paragraph li{
+    
+list-style: none;
+}
+.paragraph li a{
+    
+text-decoration: none;
+}
+.paragraph li a h2{
+    
+margin-top: 10%;
+    
+font-size: 35px;
+    
+font-weight: normal;
+    
+color: black;
+    
+text-align: left;
+    
+margin-left: 18%;
+}
+.paragraph li a h4{
+    
+font-size: 22px;
+    
+font-weight: normal;
+    
+text-align: left;
+    
+color: #000000bf;
+    
+margin-left: 18%;
+}
+.paragraph li a h6{
+    
+margin-left: 18%;
+    
+font-size: large;
+}
+.paragraph li a h5{
+    
+margin-left: 18%;
+    
+font-size: 18px;
+    
+font-weight: normal;
+    
+color: grey;
+    
+margin-top: 3%;
+}
+.paragraph li a button{
+    
+margin-left: 18%;
+    
+margin-top: 8%;
+    
+border: none;
+    
+font-size: 16px;
+    
+font-weight: bold;
+    
+background: transparent;
+    
+margin-bottom: 50%;
+    
+cursor: pointer;
+} 
+.about-section{}
+.about-victor{
+
+display: flex;
+
+justify-content: space-between;
+
+width: 100%;
+
+margin: auto;
+
+background-color: #1C1E24;
+
+height: 600px;
+}
+.left-section{
+
+margin-top: 20%;
+
+margin-left: 5%;
+}
+.left-section h2{
+
+color: white;
+
+font-weight: 200;
+}
+.left-section p{
+
+color: #677B84;
+}
+.middle-section{
+
+margin-right: 5%;
+
+margin-top: 5%;
+
+width: 30%;
+}
+.middle-section h2{
+    
+color: white;
+    
+margin-top: 20%;
+    
+font-weight: 200;
+    
+margin-bottom: 20px;
+}
+.middle-section li{
+    
+list-style: none;
+}
+
+.middle-section li a{
+
+text-decoration: none;
+}
+
+.middle-section li a h1{
+    
+font-weight: normal;
+    
+font-size: 22px;
+    
+color: white;
+    
+margin-bottom: 10px;
+    
+margin-top: 10px;
+}
+.middle-section li a h1 span{
+    
+font-style: normal;
+}
+.middle-section li a h4{
+
+color: #3A5A7E;
+
+font-size: 18px;
+
+margin-bottom: 10px;
+
+font-weight: normal;
+}
+.border{
+
+border: 1px solid #ffffff59;
+
+margin-bottom: 20px;
+}
+.right-section{
+
+margin-right: 5%;
+
+width: 40%;
+}
+.right-section h2{
+    
+color: white;
+    
+margin-bottom: 10%;
+    
+font-weight: 200;
+    
+font-size: 28px;
+}
+.right-section input{
+    
+border: none;
+    
+margin-bottom: 20px;
+    
+width: 100%;
+    
+background-color: white;
+    
+padding: 15px 5px;
+}
+.right-section input[type="submit"]{
+    
+width: auto;
+    
+background-color: black;
+    
+color: #ffffffe6;
+    
+font-size: 15px;
+    
+font-weight: bold;
+    
+padding: 20px 45px;
+    
+cursor: pointer;
+}
+footer{background-color: black;height: 100px;}
+.footer-section{
+
+display: flex;
+
+justify-content: space-between;
+
+width: 80%;
+
+margin: auto;
+
+padding: 30px 0;
+}
+.copyright{}
+.copyright p{
+    
+font-size: 18px;
+    
+color: #ffffff75;
+}
+.menue{
+
+width: 30%;
+}
+.menue ul{
+    
+display: flex;
+    
+justify-content: space-between;
+}
+.menue ul li{
+    
+list-style: none;
+}
+.menue ul li a{
+    
+text-decoration: none;
+}
+.menue ul li a input{
+    
+}
+.menue input{
+    
+font-size: 16px;
+    
+cursor: pointer;
+    
+border: none;
+    
+background: transparent;
+    
+color: #ffffff80;
+}
